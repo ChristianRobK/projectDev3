@@ -1,0 +1,38 @@
+body {
+    font-family: 'Space Mono';
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+.meta-head {
+    color: white;
+    background-color:  red;
+    border-top: 1px solid black;
+    border-right: none;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+th {
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+td {
+    border: 0;
+    border-right: 1px solid black;
+}
+.cheatsheet td:nth-child(4) {
+    background-color: red;
+}
+.cheatsheet td:nth-child(1) {
+    font-weight: 800;
+    font-family: 'Space Mono', monospace;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
